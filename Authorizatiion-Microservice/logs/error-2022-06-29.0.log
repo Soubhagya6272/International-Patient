@@ -1,0 +1,60 @@
+2022-06-29_21-03-52 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8400 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8400 or configure this application to listen on another port.
+
+2022-06-29_21-04-32 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8401 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8401 or configure this application to listen on another port.
+
+2022-06-29_21-04-33 [HikariPool-2 connection adder] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Error thrown while acquiring connection from data source
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490)
+	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:516)
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:406)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:363)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-06-29_21-13-48 [http-nio-8401-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-06-29_21-13-48 [http-nio-8401-exec-6] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-06-29_21-13-48 [http-nio-8401-exec-9] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-06-29_21-13-48 [http-nio-8401-exec-7] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-06-29_21-13-48 [http-nio-8401-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-06-29_21-13-48 [http-nio-8401-exec-6] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-06-29_21-13-48 [http-nio-8401-exec-5] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-06-29_21-13-48 [http-nio-8401-exec-4] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-06-29_21-13-48 [http-nio-8401-exec-9] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-06-29_21-13-48 [http-nio-8401-exec-8] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-06-29_21-13-48 [http-nio-8401-exec-7] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS

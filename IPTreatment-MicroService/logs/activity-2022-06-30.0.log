@@ -1,0 +1,213 @@
+2022-06-30_07-43-52 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Starting IpTreatmentMicroServiceApplication using Java 11.0.15 on delldurga with PID 5600 (C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService\target\classes started by durga in C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService)
+2022-06-30_07-43-52 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - No active profile set, falling back to default profiles: default
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2f195465-9377-3486-9b7b-e801cc28b7bb
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.AuthorizationClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2022-06-30_07-43-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2022-06-30_07-43-52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-30_07-43-52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-06-30_07-43-52 [restartedMain] INFO  o.a.c.c.C.[.[.[/ipTreatment] - Initializing Spring embedded WebApplicationContext
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3762 ms
+2022-06-30_07-43-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-30_07-43-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:treatment_db'
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30_07-43-52 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30_07-43-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2022-06-30_07-43-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/ipTreatment'
+2022-06-30_07-43-52 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-30_07-43-52 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-30_07-43-52 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-30_07-43-52 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Started IpTreatmentMicroServiceApplication in 10.28 seconds (JVM running for 11.794)
+2022-06-30_07-55-50 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Starting IpTreatmentMicroServiceApplication using Java 11.0.15 on delldurga with PID 14676 (C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService\target\classes started by durga in C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService)
+2022-06-30_07-55-50 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - No active profile set, falling back to default profiles: default
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2f195465-9377-3486-9b7b-e801cc28b7bb
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.AuthorizationClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2022-06-30_07-55-50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2022-06-30_07-55-50 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-30_07-55-50 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-06-30_07-55-50 [restartedMain] INFO  o.a.c.c.C.[.[.[/ipTreatment] - Initializing Spring embedded WebApplicationContext
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3589 ms
+2022-06-30_07-55-50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-30_07-55-50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:treatment_db'
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30_07-55-50 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30_07-55-50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2022-06-30_07-55-50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/ipTreatment'
+2022-06-30_07-55-50 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-30_07-55-50 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-30_07-55-50 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-30_07-55-50 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Started IpTreatmentMicroServiceApplication in 10.424 seconds (JVM running for 11.715)
+2022-06-30_07-55-50 [http-nio-8200-exec-2] INFO  o.a.c.c.C.[.[.[/ipTreatment] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30_07-55-50 [http-nio-8200-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-30_07-55-50 [http-nio-8200-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2022-06-30_07-55-50 [http-nio-8200-exec-9] INFO  o.apache.tomcat.util.http.Parameters - Invalid chunk starting at byte [0] and ending at byte [175] with a value of [=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMSIsImV4cCI6MTY1NjU2NDY2NCwiaWF0IjoxNjU2NTYyODY0fQ.0EVF26uvz7Qf1-LExgwvCmkiHpcBByYyaIRtdYc2ckqG0HnkgiE_ou0v3zp2Qap_drew3LR907O1bgw37knhwA] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+2022-06-30_11-30-57 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Starting IpTreatmentMicroServiceApplication using Java 11.0.15 on delldurga with PID 7972 (C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService\target\classes started by durga in C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService)
+2022-06-30_11-30-57 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - No active profile set, falling back to default profiles: default
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2f195465-9377-3486-9b7b-e801cc28b7bb
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.AuthorizationClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2022-06-30_11-30-57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2022-06-30_11-30-57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-30_11-30-57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-06-30_11-30-57 [restartedMain] INFO  o.a.c.c.C.[.[.[/ipTreatment] - Initializing Spring embedded WebApplicationContext
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4545 ms
+2022-06-30_11-30-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-30_11-30-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:treatment_db'
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30_11-30-57 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30_11-30-57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2022-06-30_11-30-57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/ipTreatment'
+2022-06-30_11-30-57 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-30_11-30-57 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-30_11-30-57 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-30_11-30-57 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Started IpTreatmentMicroServiceApplication in 12.48 seconds (JVM running for 14.081)
+2022-06-30_11-30-57 [http-nio-8200-exec-1] INFO  o.a.c.c.C.[.[.[/ipTreatment] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30_11-30-57 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-30_11-30-57 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-06-30_11-30-57 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-30_11-30-57 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30_11-30-57 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-30_11-30-57 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-30_14-51-06 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Starting IpTreatmentMicroServiceApplication using Java 11.0.15 on delldurga with PID 15424 (C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService\target\classes started by durga in C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService)
+2022-06-30_14-51-06 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - No active profile set, falling back to default profiles: default
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 118 ms. Found 2 JPA repository interfaces.
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=318b783b-c79e-3a1f-b12e-8bc1ad31819d
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.AuthorizationClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2022-06-30_14-51-06 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2022-06-30_14-51-06 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-30_14-51-06 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-06-30_14-51-06 [restartedMain] INFO  o.a.c.c.C.[.[.[/ipTreatment] - Initializing Spring embedded WebApplicationContext
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6050 ms
+2022-06-30_14-51-06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-30_14-51-06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:treatment_db'
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30_14-51-06 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30_14-51-06 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2022-06-30_14-51-06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/ipTreatment'
+2022-06-30_14-51-06 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-30_14-51-06 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-30_14-51-06 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-30_14-51-06 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Started IpTreatmentMicroServiceApplication in 25.187 seconds (JVM running for 29.842)
+2022-06-30_14-51-06 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-06-30_14-51-06 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-30_14-51-06 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30_15-07-12 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Starting IpTreatmentMicroServiceApplication using Java 11.0.15 on delldurga with PID 11128 (C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService\target\classes started by durga in C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService)
+2022-06-30_15-07-12 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - No active profile set, falling back to default profiles: default
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2f195465-9377-3486-9b7b-e801cc28b7bb
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.AuthorizationClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2022-06-30_15-07-12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2022-06-30_15-07-12 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-30_15-07-12 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-06-30_15-07-12 [restartedMain] INFO  o.a.c.c.C.[.[.[/ipTreatment] - Initializing Spring embedded WebApplicationContext
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4146 ms
+2022-06-30_15-07-12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-30_15-07-12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:treatment_db'
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30_15-07-12 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30_15-07-12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2022-06-30_15-07-12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/ipTreatment'
+2022-06-30_15-07-12 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-30_15-07-12 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-30_15-07-12 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-30_15-07-12 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Started IpTreatmentMicroServiceApplication in 14.88 seconds (JVM running for 16.03)
+2022-06-30_15-26-53 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-30_15-26-53 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30_15-26-53 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-30_15-26-53 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-30_15-27-13 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Starting IpTreatmentMicroServiceApplication using Java 11.0.15 on delldurga with PID 11128 (C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService\target\classes started by durga in C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService)
+2022-06-30_15-27-13 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - No active profile set, falling back to default profiles: default
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 311 ms. Found 2 JPA repository interfaces.
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2f195465-9377-3486-9b7b-e801cc28b7bb
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.AuthorizationClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2022-06-30_15-27-13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2022-06-30_15-27-13 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-30_15-27-13 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-06-30_15-27-13 [restartedMain] INFO  o.a.c.c.C.[.[.[/ipTreatment] - Initializing Spring embedded WebApplicationContext
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12328 ms
+2022-06-30_15-27-13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-06-30_15-27-13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:treatment_db'
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30_15-27-13 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30_15-27-13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/ipTreatment'
+2022-06-30_15-27-13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-30_15-27-13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-30_15-27-13 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-30_15-27-13 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Started IpTreatmentMicroServiceApplication in 37.166 seconds (JVM running for 1227.131)
+2022-06-30_15-27-13 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-30_15-27-13 [Thread-9] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-30_15-27-13 [Thread-9] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30_15-27-13 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-06-30_15-27-13 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-06-30_15-27-42 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Starting IpTreatmentMicroServiceApplication using Java 11.0.15 on delldurga with PID 11128 (C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService\target\classes started by durga in C:\Users\durga\Downloads\CDE-Project-International-Patients-treatment-management (3)\CDE-Project-International-Patients-treatment-management\IPTreatment-MicroService)
+2022-06-30_15-27-42 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - No active profile set, falling back to default profiles: default
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2f195465-9377-3486-9b7b-e801cc28b7bb
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.AuthorizationClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.iptreatment.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2022-06-30_15-27-42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2022-06-30_15-27-42 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-30_15-27-42 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-06-30_15-27-42 [restartedMain] INFO  o.a.c.c.C.[.[.[/ipTreatment] - Initializing Spring embedded WebApplicationContext
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5485 ms
+2022-06-30_15-27-42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-06-30_15-27-42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:treatment_db'
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30_15-27-42 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30_15-27-42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/ipTreatment'
+2022-06-30_15-27-42 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-30_15-27-42 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-30_15-27-42 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-30_15-27-42 [restartedMain] INFO  c.c.i.IpTreatmentMicroServiceApplication - Started IpTreatmentMicroServiceApplication in 13.426 seconds (JVM running for 1242.735)
+2022-06-30_15-27-42 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-06-30_15-27-42 [http-nio-8200-exec-1] INFO  o.a.c.c.C.[.[.[/ipTreatment] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30_15-27-42 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-30_15-27-42 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms

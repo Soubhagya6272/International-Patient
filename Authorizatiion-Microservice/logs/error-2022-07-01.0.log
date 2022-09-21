@@ -1,0 +1,25 @@
+2022-07-01_10-02-17 [http-nio-8400-exec-1] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired
+2022-07-01_11-43-11 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<?> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2022-07-01_11-43-11 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<?> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2022-07-01_11-43-11 [main] ERROR c.c.a.e.GlobalExceptionHandler - null
+2022-07-01_11-43-11 [main] ERROR c.c.a.e.GlobalExceptionHandler - null
+2022-07-01_11-43-16 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
+2022-07-01_11-43-16 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
+2022-07-01_11-48-52 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<?> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2022-07-01_11-48-52 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<?> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2022-07-01_11-48-52 [main] ERROR c.c.a.e.GlobalExceptionHandler - null
+2022-07-01_11-48-52 [main] ERROR c.c.a.e.GlobalExceptionHandler - null
+2022-07-01_11-48-58 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
+2022-07-01_11-48-58 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
+2022-07-01_11-55-48 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<?> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2022-07-01_11-55-48 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<?> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2022-07-01_11-55-48 [main] ERROR c.c.a.e.GlobalExceptionHandler - null
+2022-07-01_11-55-48 [main] ERROR c.c.a.e.GlobalExceptionHandler - null
+2022-07-01_11-55-53 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
+2022-07-01_11-55-53 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
+2022-07-01_12-00-42 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<?> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2022-07-01_12-00-42 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<?> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2022-07-01_12-00-42 [main] ERROR c.c.a.e.GlobalExceptionHandler - null
+2022-07-01_12-00-42 [main] ERROR c.c.a.e.GlobalExceptionHandler - null
+2022-07-01_12-00-47 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
+2022-07-01_12-00-47 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
